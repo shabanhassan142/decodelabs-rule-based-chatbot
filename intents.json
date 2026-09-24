@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "greetings", "whats up", "howdy"],
+      "responses": [
+        "Hello! I am your AI Rule-Based Assistant. How can I assist you today?",
+        "Hi there! Ready to assist you with deterministic precision.",
+        "Hey! Welcome to DecodeLabs AI Assistant. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you", "who r u", "what are you", "your name", "who made you", "tell me about yourself", "what is your purpose"],
+      "responses": [
+        "I am a Rule-Based AI Chatbot built for Project 1 of the DecodeLabs AI Engineering Track.",
+        "I am a deterministic logic engine operating on the IPO (Input-Process-Output) model with O(1) hash map lookups!",
+        "I am an intelligent control layer designed to provide instant, zero-hallucination responses."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "help me", "features", "options", "commands", "menu", "capabilities"],
+      "responses": [
+        "Here is what I can do:\n1. Answer FAQs about Artificial Intelligence & Rule-Based Systems.\n2. Demonstrate O(1) hash map intent matching.\n3. Show deterministic guardrail logic.\n4. Provide information on DecodeLabs Project 1.",
+        "I can answer questions regarding logic engines, AI guardrails, system architecture, and project specifications!"
+      ]
+    },
+    {
+      "tag": "ai_concepts",
+      "patterns": ["what is ai", "rule based vs llm", "what is system 1 system 2", "why rule based", "guardrails"],
+      "responses": [
+        "Rule-based systems use deterministic logic (if-else or hash maps) for 100% predictable, safe outcomes. LLMs are probabilistic models that generate natural text but carry hallucination risks. Combining them creates safe AI guardrails!",
+        "System 1 AI (LLMs) is probabilistic like an artist. System 2 AI (Rule Engine) is deterministic like an engineer. Rule engines form the security guardrail around generative AI!"
+      ]
+    },
+    {
+      "tag": "decodelabs",
+      "patterns": ["decodelabs", "tell me about decodelabs", "project 1", "internship", "industrial training kit", "batch 2026"],
+      "responses": [
+        "DecodeLabs Project 1 focuses on building the foundational logic skeleton of AI engineering—mastering control flow, sanitization, hash maps, and deterministic guardrails before moving to probabilistic models.",
+        "This project is Milestone 1 of the DecodeLabs AI Engineer Track. Completing this unlocks advanced projects for next week!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thank you so much", "appreciated", "great job", "awesome"],
+      "responses": [
+        "You're very welcome! Let me know if you have any more questions.",
+        "Glad to help! Programmed for efficiency and accuracy.",
+        "Anytime! Deterministic performance at your service."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how do you feel", "are you okay"],
+      "responses": [
+        "I am running smoothly with optimal O(1) lookup speed! How can I help you?",
+        "All systems operational! Deterministic logic is functioning perfectly."
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["exit", "quit", "bye", "goodbye", "close", "stop", "end"],
+      "responses": [
+        "Goodbye! It was a pleasure assisting you. System shutting down cleanly.",
+        "Farewell! Keep building great AI guardrails!",
+        "Session terminated. Have a productive day!"
+      ]
+    }
+  ],
+  "fallback_responses": [
+    "I'm sorry, I didn't quite catch that. Could you rephrase your question?",
+    "That query is outside my current knowledge base. Try asking about 'capabilities', 'who are you', 'DecodeLabs', or 'what is AI'.",
+    "No matching rule found in my dictionary. Type 'help' to see what I can answer!"
+  ]
+}
